@@ -2,70 +2,117 @@
 body{
     margin: 0%;
 }
-.menu_superior{
-    display: flex;
-    position: fixed;
+.barra_superior{
     width: 100%;
-    height: 10%;
-    background-color: rgb(14, 12, 12);
-}
-.menu_desplegable{
-    width: 35px;
-    height: 35px;
-    background-image: url(img/menu_desplegable.png);
-    background-size: cover;
-    margin-top: 1.5%;
-    margin-left: 1.5%;
-}
-.logo{
-    width: 130px;
-    height: 45px;
-    background-image: url(img/logo.png);
-    background-size: cover;
-    margin-top: 1%;
-    margin-left: 2%;
-}
-.navegacio{
+    height: 56px;
     display: flex;
-    margin-top: 1.5% ;
-    margin-left: 20%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0f0f0f;
+    padding: 0px 16px;
 }
-.barra_buscador{
-    background-color: black;
-    width: 500px;
-    height: 35px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(107, 103, 103);
+.esquerre{
+    display: flex;
+    align-items: center;
+}
+menu{
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+}
+.logoyt{
+    width: 100%;
+    height: 100%;
+    padding: 18px 14px 18px 16px;
+}
+.centre{
+    margin-left: 10%;
+    height: 40px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barra_busqueda{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 90%;
+}
+.buscador{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 83%;
+    border: solid 1px #565656;
     border-top-left-radius: 20px;
-    border-bottom-left-radius:20px;
+    border-bottom-left-radius: 20px;
+    padding: 0px 4px 0px 16px;
+    background-color: #0f0f0f;
 }
-.text_buscar{
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(107, 103, 103);
-    position: relative;
-    bottom: 15%;
-    left: 3%;
+.buscar{
+    color: #565656;
+    font-family: Roboto;
 }
 .lupa{
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(107, 103, 103);
-    width:50px;
-    height: 35px;
-    background-image: url(img/lupa.png);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    border: 1px solid #565656;
+    background-color: #ffffff14;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    border-color: rgb(107, 103, 103);
 }
 .microfon{
-    width: 35px;
-    height: 35px;
-    background-image: url(img/microfono.png);
-    background-size: cover;
-    border-radius: 30px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(107, 103, 103);
-    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+    border-radius: 100%;
+}
+.img_microfon{
+    height: 40px;
+    width: 40px;
+}
+.dreta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 20%;
+    padding-right: 16px;
+}
+.crear{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    width: 35%;
+    overflow: hidden;
+}
+.img_crear{
+    height: 100%;
+    width: 100%;
+}
+.campana{
+    height: 24px;
+    width: 24px;
+    padding: 16px;
+}
+.usuari{
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(55, 172, 55);
+    border-radius: 100%;
+}
+.m_usuari{
+    color: white;
+    font-family: Roboto;
 }
