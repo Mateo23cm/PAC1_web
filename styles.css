@@ -1,7 +1,12 @@
 /* Fet per Mateo Salamanca */
+/* Implantació d'aplicacions web - Youtube */
+/* CSS pàgina principal Youtube.com (index.html) */
 body{
     margin: 0%;
+    overflow-x: hidden;
 }
+
+/* Menú superior */
 .barra_superior{
     width: 100%;
     height: 56px;
@@ -9,7 +14,7 @@ body{
     align-items: center;
     justify-content: space-between;
     background-color: #0f0f0f;
-    padding: 0px 16px;
+    padding-left: 24px;
 }
 .esquerre{
     display: flex;
@@ -28,7 +33,7 @@ menu{
 .centre{
     margin-left: 10%;
     height: 40px;
-    width: 50%;
+    width: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,15 +88,14 @@ menu{
     align-items: center;
     justify-content: center;
     height: 40px;
-    width: 20%;
-    padding-right: 16px;
+    width: 15%;
 }
 .crear{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 36px;
-    width: 35%;
+    width: 34%;
     overflow: hidden;
 }
 .img_crear{
@@ -115,4 +119,181 @@ menu{
 .m_usuari{
     color: white;
     font-family: Roboto;
+}
+.cos_youtube{
+    display: flex;
+    justify-content: space-between;
+}
+/* Barra menú esquerre */
+.barra_esquerre{
+    display: block;
+    width: 10%;
+    height: 100%;
+    background-color: #0f0f0f;
+}
+.menu_esquerre{
+    padding-right: 12px;
+    width: 240px;
+    height: 100%;
+    background-color: #0f0f0f;
+}
+/* Estil general botons menú esquerre */
+.botons_principals{
+    padding-top: 10px;
+    margin-left: 14px;
+}
+.botons_menu_esquerre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 40px;
+}
+.img_botons_esquerre{
+    width: 24px;
+    height: 24px;
+}
+.text_botons_esquerre{
+    width: 132px;
+    height: 20px;
+    color: white;
+    font-family: Roboto;
+    font-size: 14px;
+    padding-left: 24px;
+    padding-top: 3px;
+    white-space: nowrap;       
+    overflow: hidden;          
+    text-overflow: ellipsis; 
+}
+/* Estil Apartat "Tú" menú esquerre*/
+.apartat_tu{
+    margin-top: 12px;
+    margin-left: 14px;
+    padding-top: 24px;
+    border-top: 1px solid #565656;
+}
+.text_apartat_tu{
+    margin-bottom: 10px;
+    padding-left: 12px;
+    align-items: center;
+    display: flex;
+}
+.text_tu{
+    width: 26px;
+    height: 22px;
+    color: white;
+    font: 16px Roboto;
+    font-weight: bold;
+}
+/* Estil Apartat "Subscripcions" menú esquerre*/
+.apartat_subscripcions{
+    margin-top: 12px;
+    padding-left: 14px;
+    padding-top: 24px;
+    border-top: 1px solid #565656;
+}
+.text_apartat_subscripcions{
+    margin-bottom: 10px;
+    padding-left: 12px;
+    align-items: center;
+    display: flex;
+}
+.text_subscripcions{
+    height: 22px;
+    color: white;
+    font: 16px Roboto;
+    font-weight: bold;
+}
+.img_subscripcions{
+    margin-left: 5px;
+}
+.img_subs_yt{
+    border-radius: 100%;
+}
+/* Apartat "explorar" menú esquerre */
+.apartat_explorar{
+    margin-top: 12px;
+    padding-left: 14px;
+    padding-top: 24px;
+    border-top: 1px solid #565656;
+}
+.text_apartat_explorar{
+    margin-bottom: 10px;
+    padding-left: 12px;
+    align-items: center;
+    display: flex;
+}
+.text_explorar{
+    height: 22px;
+    color: white;
+    font: 16px Roboto;
+    font-weight: bold;
+}
+/* Apartat "Més de Youtube" menú esquerre */
+.apartat_mesdeyoutube{
+    margin-top: 12px;
+    padding-left: 14px;
+    padding-top: 24px;
+    border-top: 1px solid #565656;
+}
+.text_apartat_mesdeyoutube{
+    margin-bottom: 10px;
+    padding-left: 12px;
+    align-items: center;
+    display: flex;
+}
+.text_mesdeyoutube{
+    height: 22px;
+    color: white;
+    font: 16px Roboto;
+    font-weight: bold;
+}
+/* Apartat configuracions extra menú esquerre */
+.apartat_configuracions{
+    margin-top: 12px;
+    padding-left: 14px;
+    padding-top: 24px;
+    border-top: 1px solid #565656;
+}
+/* Guia de links menú esquerre */
+.apartat_guia_links{
+    margin-top: 12px;
+    border-top: 1px solid #565656
+}
+.guia_links{
+    padding: 16px 24px 0px;
+
+}
+.links_menu_esquerre{
+    margin-right: 8px;
+    color: #AAAAAA;
+    font: 13px Roboto;
+    font-weight: bold;
+}
+.copyright_menu_esquerre{
+    color: #717171;
+    font: 12px Roboto;
+}
+.contingut_yt{
+    display: flex;
+    align-items: center;
+    width: 1190px;
+    height: 100%;
+    background-color: #0f0f0f;
+    padding-top: 12px;
+}
+.videos{
+    width: 380px;
+    height: 320px;
+}
+.img_videos{
+    width: 100%;
+    height: 65%;
+    border-radius: 4%;
+    margin-bottom: 10px;
+}
+.img_creador_videos{
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
 }
